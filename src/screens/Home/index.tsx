@@ -1,10 +1,20 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Feather } from '@expo/vector-icons'
 
-// import { Container } from './style'
+import { Container, Header, InputArea, InputSearch } from './style'
 
 export const Home: React.FC = () => {
+
+
+
   return (
-    <Text>Home</Text>
+    <Container>
+      <Header>
+        <InputArea>
+          <InputSearch placeholder="O que está procurando?"/>
+          <Feather name="search" size={ 24 } color="#FFF"/>
+        </InputArea>
+      </Header>
+    </Container>
   )
 }
