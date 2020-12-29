@@ -5,6 +5,7 @@ export const Container = styled(ScrollView).attrs({
   showsVerticalScrollIndicator: false
 })`
   flex: 1;
+  padding: 0;
   background-color: #222;
 `
 
@@ -21,9 +22,11 @@ export const InputArea = styled.View`
   align-items: center;
   flex-direction: row;
   width: 98%;
-  height: 37px;
-  padding: 0 15px;
+  height: 40px;
+  padding: 0 25px 0 15px;
+  background-color: #000;
   border-radius: 10px;
+  elevation: 2;
 `
 
 export const InputSearch = styled.TextInput.attrs({
@@ -33,5 +36,23 @@ export const InputSearch = styled.TextInput.attrs({
   font-family: Montserrat_500Medium;
   color: #FFF;
   width: 98%;
-  padding: 0 10px;
+  padding: 0 15px;
+`
+
+export const News = styled.View`
+  width: 100%;
+`
+
+export const Title = styled.Text`
+  font-size: 18px;
+  font-family: Montserrat_700Bold;
+  color: #FFF;
+  padding: 0 15px;
+`
+
+export const NewProperties = styled.ScrollView.attrs({
+  horizontal: true,
+  showsHorizontalScrollIndicator: false
+})`
+  padding: 0 15px;
 `
