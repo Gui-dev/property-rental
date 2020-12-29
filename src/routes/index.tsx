@@ -21,8 +21,10 @@ export const Routes: React.FC = () => {
             color: '#FFF'
           },
           headerStyle: {
-            backgroundColor: '#222'
-          }
+            backgroundColor: '#222',
+            elevation: 0,
+            shadowColor: 'transparent'
+          },
         }}
       >
         <Screen
