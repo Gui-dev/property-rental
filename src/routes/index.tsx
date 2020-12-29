@@ -47,6 +47,7 @@ export const Routes: React.FC = () => {
           component={ Details }
           options={{
             headerTitle: "Detalhe",
+            headerTintColor: '#FFF',
             headerRight: () => {
               return (
                 <TouchableOpacity
