@@ -56,3 +56,27 @@ export const NewProperties = styled.ScrollView.attrs({
 })`
   padding: 0 15px;
 `
+
+export const CloseToYou = styled.View`
+  margin-top: 20px;
+`
+
+export const CloseToYouContent = styled.ScrollView.attrs({
+  horizontal: true,
+  showsHorizontalScrollIndicator: false
+})`
+  margin-top: 20px;
+  padding: 0 15px;
+`
+
+export const Tipday = styled.View`
+  margin-top: 20px;
+`
+
+export const TipdayContent = styled.ScrollView.attrs({
+  horizontal: true,
+  showsHorizontalScrollIndicator: false
+})`
+  margin-top: 20px;
+  padding: 0 15px;
+`
